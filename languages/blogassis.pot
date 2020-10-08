@@ -1,0 +1,308 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Pepro Blogging Assistant\n"
+"POT-Creation-Date: 2020-10-09 02:26+0330\n"
+"PO-Revision-Date: 2020-10-03 14:29+0330\n"
+"Last-Translator: Amirhosseinhpv <amirhossein@hpv.im>\n"
+"Language-Team: Amirhosseinhpv <amirhossein@hpv.im>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: pepro-blog-assistant.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: pepro-blog-assistant.php:69
+msgid "Blogging Assistant"
+msgstr ""
+
+#: pepro-blog-assistant.php:70
+#, php-format
+msgid "%2$s ver. %1$s"
+msgstr ""
+
+#: pepro-blog-assistant.php:258
+msgid "Icon Color"
+msgstr ""
+
+#: pepro-blog-assistant.php:264
+msgid "Hover Color"
+msgstr ""
+
+#: pepro-blog-assistant.php:270 pepro-blog-assistant.php:406
+#: pepro-blog-assistant.php:437 pepro-blog-assistant.php:482
+msgid "Background Color"
+msgstr ""
+
+#: pepro-blog-assistant.php:276
+msgid "Hover Background Color"
+msgstr ""
+
+#: pepro-blog-assistant.php:281
+msgid "Border Radius"
+msgstr ""
+
+#: pepro-blog-assistant.php:286
+msgid "Print"
+msgstr ""
+
+#: pepro-blog-assistant.php:291
+msgid "Share on Email"
+msgstr ""
+
+#: pepro-blog-assistant.php:296
+msgid "Share on Facebook"
+msgstr ""
+
+#: pepro-blog-assistant.php:301
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: pepro-blog-assistant.php:306
+msgid "Share on Twitter"
+msgstr ""
+
+#: pepro-blog-assistant.php:311
+msgid "Share on Google-plus"
+msgstr ""
+
+#: pepro-blog-assistant.php:316
+msgid "Share on Tumblr"
+msgstr ""
+
+#: pepro-blog-assistant.php:321
+msgid "Share on Pinterest"
+msgstr ""
+
+#: pepro-blog-assistant.php:328
+msgid "Share on Telegram"
+msgstr ""
+
+#: pepro-blog-assistant.php:333
+msgid "Share on WhatsApp"
+msgstr ""
+
+#: pepro-blog-assistant.php:341
+msgid "Share Text"
+msgstr ""
+
+#: pepro-blog-assistant.php:342
+msgid "Share this article: "
+msgstr ""
+
+#: pepro-blog-assistant.php:349
+msgid "TOC Before Content"
+msgstr ""
+
+#: pepro-blog-assistant.php:353
+msgid "TOC After Content"
+msgstr ""
+
+#: pepro-blog-assistant.php:357
+msgid "Auto-prepend heading number"
+msgstr ""
+
+#: pepro-blog-assistant.php:361
+msgid "Append go to TOC to Heading"
+msgstr ""
+
+#: pepro-blog-assistant.php:365
+msgid "Prepend Anchor link to Heading"
+msgstr ""
+
+#: pepro-blog-assistant.php:371
+msgid "Navigation on Right"
+msgstr ""
+
+#: pepro-blog-assistant.php:374 pepro-blog-assistant.php:386
+msgid "Menu-item hover border"
+msgstr ""
+
+#: pepro-blog-assistant.php:383
+msgid "Navigation on Left"
+msgstr ""
+
+#: pepro-blog-assistant.php:397
+msgid "Top Progressbar"
+msgstr ""
+
+#: pepro-blog-assistant.php:400 pepro-blog-assistant.php:431
+msgid "Progress Color"
+msgstr ""
+
+#: pepro-blog-assistant.php:412 pepro-blog-assistant.php:443
+msgid "Reverse Direction"
+msgstr ""
+
+#: pepro-blog-assistant.php:419 pepro-blog-assistant.php:450
+msgid "Height"
+msgstr ""
+
+#: pepro-blog-assistant.php:428
+msgid "Bottom Progressbar"
+msgstr ""
+
+#: pepro-blog-assistant.php:461
+msgid "Protect Content from being copying"
+msgstr ""
+
+#: pepro-blog-assistant.php:464
+msgid "Content Container Selector"
+msgstr ""
+
+#: pepro-blog-assistant.php:473
+msgid "Content Highlight Color"
+msgstr ""
+
+#: pepro-blog-assistant.php:476
+msgid "Color"
+msgstr ""
+
+#: pepro-blog-assistant.php:492
+msgid "Share buttons"
+msgstr ""
+
+#: pepro-blog-assistant.php:496
+msgid "Share-widget Before Content"
+msgstr ""
+
+#: pepro-blog-assistant.php:501
+msgid "Share-widget After Content"
+msgstr ""
+
+#: pepro-blog-assistant.php:506
+msgid "Share-widget Float-top"
+msgstr ""
+
+#: pepro-blog-assistant.php:511
+msgid "Share-widget Float-bottom"
+msgstr ""
+
+#: pepro-blog-assistant.php:516
+msgid "Share-widget Float-right"
+msgstr ""
+
+#: pepro-blog-assistant.php:521
+msgid "Share-widget Float-left"
+msgstr ""
+
+#: pepro-blog-assistant.php:527
+msgid "Table of Content"
+msgstr ""
+
+#: pepro-blog-assistant.php:531
+msgid "In-page Navigation"
+msgstr ""
+
+#: pepro-blog-assistant.php:535
+msgid "Scroll progressbar"
+msgstr ""
+
+#: pepro-blog-assistant.php:539
+msgid "Advanced Options"
+msgstr ""
+
+#: pepro-blog-assistant.php:565 pepro-blog-assistant.php:566
+msgid "Support"
+msgstr ""
+
+#: pepro-blog-assistant.php:577
+msgid "Settings"
+msgstr ""
+
+#: pepro-blog-assistant.php:603
+#, php-format
+msgctxt "footer-copyright"
+msgid "Thanks for using %s products"
+msgstr ""
+
+#: pepro-blog-assistant.php:603
+msgid "Pepro Dev"
+msgstr ""
+
+#: pepro-blog-assistant.php:608
+#, php-format
+msgctxt "footer-copyright"
+msgid "%s — Version %s"
+msgstr ""
+
+#: pepro-blog-assistant.php:675
+msgid "Pepro Blogging Assistant Configurations"
+msgstr ""
+
+#: pepro-blog-assistant.php:679
+msgctxt "setting-general"
+msgid "Settings saved successfully."
+msgstr ""
+
+#: pepro-blog-assistant.php:688
+msgctxt "setting-page"
+msgid "Other Options"
+msgstr ""
+
+#: pepro-blog-assistant.php:692
+msgctxt "setting-page"
+msgid "You can change other options from here."
+msgstr ""
+
+#: pepro-blog-assistant.php:696
+msgctxt "setting-general"
+msgid "Clear Settings on Unistall"
+msgstr ""
+
+#: pepro-blog-assistant.php:700
+msgctxt "setting-general"
+msgid "Add fontawesome v.5 to front-end"
+msgstr ""
+
+#: pepro-blog-assistant.php:704
+msgctxt "setting-general"
+msgid "Toggle front-end wp-admin-menubar feature"
+msgstr ""
+
+#: pepro-blog-assistant.php:713
+#, php-format
+msgctxt "setting-page"
+msgid "%s Options"
+msgstr ""
+
+#: pepro-blog-assistant.php:741
+msgid ""
+"Sorry, There's a problem and we could not find any post type in your blog."
+msgstr ""
+
+#: pepro-blog-assistant.php:747
+msgid "Save setting"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Pepro Blogging Assistant"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://pepro.dev/blogging-assistant/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Pepro Blogging Assistant gives you Table of Content, Sharing Buttons, "
+"Heading navigations, Disallow Content Copying and a bunch of other tools "
+"to enhance user readability and the site's UX"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pepro Dev. Group"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://pepro.dev/"
+msgstr ""

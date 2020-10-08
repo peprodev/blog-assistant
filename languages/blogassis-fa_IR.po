@@ -1,0 +1,635 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pepro Blogging Assistant\n"
+"POT-Creation-Date: 2020-10-09 02:26+0330\n"
+"PO-Revision-Date: 2020-10-09 02:26+0330\n"
+"Last-Translator: Amirhosseinhpv <amirhossein@hpv.im>\n"
+"Language-Team: Amirhosseinhpv <amirhossein@hpv.im>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: pepro-blog-assistant.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: pepro-blog-assistant.php:69
+msgid "Blogging Assistant"
+msgstr "دستیار بلاگ"
+
+#: pepro-blog-assistant.php:70
+#, php-format
+msgid "%2$s ver. %1$s"
+msgstr "%2$s نسخه %1$s"
+
+#: pepro-blog-assistant.php:258
+msgid "Icon Color"
+msgstr "رنگ آیکون"
+
+#: pepro-blog-assistant.php:264
+msgid "Hover Color"
+msgstr "رنگ هاور"
+
+#: pepro-blog-assistant.php:270 pepro-blog-assistant.php:406
+#: pepro-blog-assistant.php:437 pepro-blog-assistant.php:482
+msgid "Background Color"
+msgstr "رنگ زمینه"
+
+#: pepro-blog-assistant.php:276
+msgid "Hover Background Color"
+msgstr "رنگ زمینه هاور"
+
+#: pepro-blog-assistant.php:281
+msgid "Border Radius"
+msgstr "خمیدگی حاشیه"
+
+#: pepro-blog-assistant.php:286
+msgid "Print"
+msgstr "پرینت"
+
+#: pepro-blog-assistant.php:291
+msgid "Share on Email"
+msgstr "اشتراک گذاری در ایمیل"
+
+#: pepro-blog-assistant.php:296
+msgid "Share on Facebook"
+msgstr "اشتراک گذاری در فیسبوک"
+
+#: pepro-blog-assistant.php:301
+msgid "Share on LinkedIn"
+msgstr "اشتراک گذاری در لینکد این"
+
+#: pepro-blog-assistant.php:306
+msgid "Share on Twitter"
+msgstr "اشتراک گذاری در توییتر"
+
+#: pepro-blog-assistant.php:311
+msgid "Share on Google-plus"
+msgstr "اشتراک گذاری در گوگل پلاس"
+
+#: pepro-blog-assistant.php:316
+msgid "Share on Tumblr"
+msgstr "اشتراک گذاری در تامبلر"
+
+#: pepro-blog-assistant.php:321
+msgid "Share on Pinterest"
+msgstr "اشتراک گذاری در پینترست"
+
+#: pepro-blog-assistant.php:328
+msgid "Share on Telegram"
+msgstr "اشتراک گذاری در تلگرام"
+
+#: pepro-blog-assistant.php:333
+msgid "Share on WhatsApp"
+msgstr "اشتراک گذاری در واتس‌اپ"
+
+#: pepro-blog-assistant.php:341
+msgid "Share Text"
+msgstr "متن اشتراک گذاری"
+
+#: pepro-blog-assistant.php:342
+msgid "Share this article: "
+msgstr "اشتراک گذاری این مطلب: "
+
+#: pepro-blog-assistant.php:349
+msgid "TOC Before Content"
+msgstr "فهرست مطالب قبل از محتوا"
+
+#: pepro-blog-assistant.php:353
+msgid "TOC After Content"
+msgstr "فهرست مطالب بعد از محتوا"
+
+#: pepro-blog-assistant.php:357
+msgid "Auto-prepend heading number"
+msgstr "افزودن شمارشگر به هدینگ ها"
+
+#: pepro-blog-assistant.php:361
+msgid "Append go to TOC to Heading"
+msgstr "افزودن رفتن به فهرست به هدینگ ها"
+
+#: pepro-blog-assistant.php:365
+msgid "Prepend Anchor link to Heading"
+msgstr "افزودن انکر لینک به هدینگ ها"
+
+#: pepro-blog-assistant.php:371
+msgid "Navigation on Right"
+msgstr "فهرست راهبری در راست"
+
+#: pepro-blog-assistant.php:374 pepro-blog-assistant.php:386
+msgid "Menu-item hover border"
+msgstr "رنگ حاشیه لینک"
+
+#: pepro-blog-assistant.php:383
+msgid "Navigation on Left"
+msgstr "فهرست راهبری در چپ"
+
+#: pepro-blog-assistant.php:397
+msgid "Top Progressbar"
+msgstr "نوار پراگرس بالا"
+
+#: pepro-blog-assistant.php:400 pepro-blog-assistant.php:431
+msgid "Progress Color"
+msgstr "رنگ نوار پراگرس"
+
+#: pepro-blog-assistant.php:412 pepro-blog-assistant.php:443
+msgid "Reverse Direction"
+msgstr "جهت معکوس"
+
+#: pepro-blog-assistant.php:419 pepro-blog-assistant.php:450
+msgid "Height"
+msgstr "ارتفاع"
+
+#: pepro-blog-assistant.php:428
+msgid "Bottom Progressbar"
+msgstr "نوار پراگرس پایین"
+
+#: pepro-blog-assistant.php:461
+msgid "Protect Content from being copying"
+msgstr "جلوگیری از کپی شده متن"
+
+#: pepro-blog-assistant.php:464
+msgid "Content Container Selector"
+msgstr "انتخابگر المان HTML نگهدارنده متن"
+
+#: pepro-blog-assistant.php:473
+msgid "Content Highlight Color"
+msgstr "رنگ متن هنگام هایلایت"
+
+#: pepro-blog-assistant.php:476
+msgid "Color"
+msgstr "رنگ"
+
+#: pepro-blog-assistant.php:492
+msgid "Share buttons"
+msgstr "دکمه های اشتراک گذاری"
+
+#: pepro-blog-assistant.php:496
+msgid "Share-widget Before Content"
+msgstr "ویجت اشتراک گذاری قبل از محتوا"
+
+#: pepro-blog-assistant.php:501
+msgid "Share-widget After Content"
+msgstr "ویجت اشتراک گذاری بعد از محتوا"
+
+#: pepro-blog-assistant.php:506
+msgid "Share-widget Float-top"
+msgstr "ویجت اشتراک گذاری شناور در بالا"
+
+#: pepro-blog-assistant.php:511
+msgid "Share-widget Float-bottom"
+msgstr "ویجت اشتراک گذاری شناور در پایین"
+
+#: pepro-blog-assistant.php:516
+msgid "Share-widget Float-right"
+msgstr "ویجت اشتراک گذاری شناور در راست"
+
+#: pepro-blog-assistant.php:521
+msgid "Share-widget Float-left"
+msgstr "ویجت اشتراک گذاری شناور در چپ"
+
+#: pepro-blog-assistant.php:527
+msgid "Table of Content"
+msgstr "فهرست مطالب"
+
+#: pepro-blog-assistant.php:531
+msgid "In-page Navigation"
+msgstr "فهرست راهبری"
+
+#: pepro-blog-assistant.php:535
+msgid "Scroll progressbar"
+msgstr "نوار پراگرس بار هنگام اسکرول"
+
+#: pepro-blog-assistant.php:539
+msgid "Advanced Options"
+msgstr "دیگر تنظیمات"
+
+#: pepro-blog-assistant.php:565 pepro-blog-assistant.php:566
+msgid "Support"
+msgstr "پشتیبانی این محصول"
+
+#: pepro-blog-assistant.php:577
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: pepro-blog-assistant.php:603
+#, php-format
+msgctxt "footer-copyright"
+msgid "Thanks for using %s products"
+msgstr "بابت استفاده از محصولات %s سپاسگزاریم"
+
+#: pepro-blog-assistant.php:603
+msgid "Pepro Dev"
+msgstr "تیم برنامه ‏نویسی پپرو"
+
+#: pepro-blog-assistant.php:608
+#, php-format
+msgctxt "footer-copyright"
+msgid "%s — Version %s"
+msgstr "%s — نسخه %s"
+
+#: pepro-blog-assistant.php:675
+msgid "Pepro Blogging Assistant Configurations"
+msgstr "تنظیمات دستیار بلاگ پپرو"
+
+#: pepro-blog-assistant.php:679
+msgctxt "setting-general"
+msgid "Settings saved successfully."
+msgstr "تنظیمات با موفقیت ثبت گردیدند."
+
+#: pepro-blog-assistant.php:688
+msgctxt "setting-page"
+msgid "Other Options"
+msgstr "تنظیمات پیشرفته"
+
+#: pepro-blog-assistant.php:692
+msgctxt "setting-page"
+msgid "You can change other options from here."
+msgstr "شما میتوانید دیگر تنظیمات را از اینجا تغییر دهید."
+
+#: pepro-blog-assistant.php:696
+msgctxt "setting-general"
+msgid "Clear Settings on Unistall"
+msgstr "پاکسازی دیتابیس هنگام حذف افزونه"
+
+#: pepro-blog-assistant.php:700
+msgctxt "setting-general"
+msgid "Add fontawesome v.5 to front-end"
+msgstr "افزودن فونت‎آسم (fontawesome-v.5) به فرانت اند"
+
+#: pepro-blog-assistant.php:704
+msgctxt "setting-general"
+msgid "Toggle front-end wp-admin-menubar feature"
+msgstr "قابلیت نمایش/مخفی سازی منوبار ادمین"
+
+#: pepro-blog-assistant.php:713
+#, php-format
+msgctxt "setting-page"
+msgid "%s Options"
+msgstr "تنظیمات مربوط به %s"
+
+#: pepro-blog-assistant.php:741
+msgid ""
+"Sorry, There's a problem and we could not find any post type in your blog."
+msgstr ""
+"متاسفیم! مشکلی پیش آمد و نمیتوانیم پست تایپ های وبلاگ شما را شناسایی کنیم."
+
+#: pepro-blog-assistant.php:747
+msgid "Save setting"
+msgstr "ذخیره تنظیمات"
+
+#. Plugin Name of the plugin/theme
+msgid "Pepro Blogging Assistant"
+msgstr "دستیار بلاگ پپرو"
+
+#. Plugin URI of the plugin/theme
+msgid "https://pepro.dev/blogging-assistant/"
+msgstr "https://pepro.dev/blogging-assistant/"
+
+#. Description of the plugin/theme
+msgid ""
+"Pepro Blogging Assistant gives you Table of Content, Sharing Buttons, "
+"Heading navigations, Disallow Content Copying and a bunch of other tools to "
+"enhance user readability and the site's UX"
+msgstr ""
+"دستیار بلاگ پپرو به شما کمک میکند با استفاده از ابزار هایی مثل فهرست مطالب، "
+"دکمه های اشتراک گذاری، لیست هدینگ ها، حالت تیره، حالت مخصوص خواندن و ... "
+"خوانایی مطالب و تجربه کاربری وبسایت را بهبود دهید"
+
+#. Author of the plugin/theme
+msgid "Pepro Dev. Group"
+msgstr "تیم برنامه ‏نویسی پپرو"
+
+#. Author URI of the plugin/theme
+msgid "https://pepro.dev/"
+msgstr "https://pepro.dev/"
+
+#~ msgid "Unauthorized Access!"
+#~ msgstr "شما دسترسی لازم را ندارید !"
+
+#~ msgid "Submition ID %s Successfully Deleted."
+#~ msgstr "داده ثبتی به شماره %s با موفقیت پاک شد."
+
+#~ msgid "Error Deleting Submition ID %s."
+#~ msgstr "متاسفانه خطایی در حذف داده ثبتی به شماره %s رخ داد."
+
+#~ msgid ""
+#~ "All data regarding Contact form %s (ID %s) were Successfully Deleted."
+#~ msgstr "داده های ثبتی مربوط به فرم تماس %s ( شناسه %s ) با موفقیت پاک شدند."
+
+#~ msgid "Error Deleting Contact form %s (ID %s) data from database."
+#~ msgstr "خطایی در حذف داده های مربوط به فرم تماس %s ( شناسه %s ) رخ داد."
+
+#~ msgid "Database Successfully Cleared."
+#~ msgstr "دیتابیس با موفقیت پاکسازی شد."
+
+#~ msgid "Error Clearing Database."
+#~ msgstr "خطایی در پاکسازی دیتابیس داده رخ داد."
+
+#~ msgctxt "setting-page"
+#~ msgid "You can change %s options from here."
+#~ msgstr "شما میتوانید تنظیمات %s را از اینجا تغییر دهید"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "Select image file"
+#~ msgstr "انتخاب فایل عکس"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "Use this image"
+#~ msgstr "استفاده از این عکس"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "Clear"
+#~ msgstr "پاک کردن"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "Current preview"
+#~ msgstr "پیش نمایش فعلی"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "Select image"
+#~ msgstr "انتخاب عکس"
+
+#~ msgctxt "js-string"
+#~ msgid "Submit"
+#~ msgstr "ثبت"
+
+#~ msgctxt "js-string"
+#~ msgid "Today"
+#~ msgstr "امروز"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "Error"
+#~ msgstr "خطایی رخ داد"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "Canceled"
+#~ msgstr "لغو شد"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "Confirm"
+#~ msgstr "تایید کنید"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "Success"
+#~ msgstr "عملیات موفق"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "Submit"
+#~ msgstr "ثبت"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "Okay"
+#~ msgstr "باشه"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "Yes"
+#~ msgstr "بله"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "No"
+#~ msgstr "خیر"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "Cancel"
+#~ msgstr "لغو"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "Send to all"
+#~ msgstr "ارسال به لیست"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "Close"
+#~ msgstr "نزدیک"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "Delete Submition"
+#~ msgstr "حذف داده ثبت شده"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid ""
+#~ "Are you sure you want to delete submition ID %s ? This cannot be undone."
+#~ msgstr ""
+#~ "آیا از حذف داده ثبتی به شماره %s اطمینان دارید؟ این عملیات قابل بازگردانی "
+#~ "نیست."
+
+#~ msgctxt "wc-setting-js"
+#~ msgid ""
+#~ "Are you sure you want to clear all data from database? This cannot be "
+#~ "undone."
+#~ msgstr ""
+#~ "آیا مطمئن هستید میخواهید تمامی رکورد های دیتابیس و تاریخچه داده های ذخیره "
+#~ "شده را حذف کنید؟ این عملیات قابل بازگشت نیست."
+
+#~ msgctxt "wc-setting-js"
+#~ msgid ""
+#~ "Are you sure you want to clear all Current Contact form data from "
+#~ "database? This cannot be undone."
+#~ msgstr ""
+#~ "آیا مطمئن هستید میخواهید تمامی رکورد های دیتابیس مرتبط با فرم تماس فعلی و "
+#~ "تاریخچه داده های ذخیره شده را حذف کنید؟ این عملیات قابل بازگردانی نیست."
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "Clear Database"
+#~ msgstr "پاکسازی دیتابیس"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "%s Data Exported via %s"
+#~ msgstr "داده %s استخراج شده توسط %s"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "%s Export"
+#~ msgstr "استخراج %s"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid "Exported at %s @ %s"
+#~ msgstr "استخراج شده در %s @ %s"
+
+#~ msgctxt "wc-setting-js"
+#~ msgid ""
+#~ "Exported via %s — Export Date: %s @ %s — Developed by Pepro Dev Team "
+#~ "( https://pepro.dev/ )"
+#~ msgstr ""
+#~ "استخراج توسط %s — تاریخ: %s @ %s — توسعه یافته توسط تیم توسعه نرم‌افزاری "
+#~ "پپرو ( https://pepro.dev/ )"
+
+#~ msgctxt "data-table"
+#~ msgid "No data available in table"
+#~ msgstr "هیچ داده ای در جدول وجود ندارد"
+
+#~ msgctxt "data-table"
+#~ msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+#~ msgstr "نمایش _START_ تا _END_ از _TOTAL_ رکورد"
+
+#~ msgctxt "data-table"
+#~ msgid "Showing 0 to 0 of 0 entries"
+#~ msgstr "نمایش 0 تا 0 از 0 رکورد"
+
+#~ msgctxt "data-table"
+#~ msgid "(filtered from _MAX_ total entries)"
+#~ msgstr "(فیلتر شده از _MAX_ رکورد)"
+
+#~ msgctxt "data-table"
+#~ msgid "Show _MENU_ entries"
+#~ msgstr "نمایش _MENU_ رکورد"
+
+#~ msgctxt "data-table"
+#~ msgid "Loading..."
+#~ msgstr "در حال بارگزاری ..."
+
+#~ msgctxt "data-table"
+#~ msgid "Processing..."
+#~ msgstr "در حال پردازش ..."
+
+#~ msgctxt "data-table"
+#~ msgid "Search:"
+#~ msgstr "جستجو در موارد نمایش داده شده:"
+
+#~ msgctxt "data-table"
+#~ msgid "No matching records found"
+#~ msgstr "رکوردی با این مشخصات پیدا نشد"
+
+#~ msgctxt "data-table"
+#~ msgid "First"
+#~ msgstr "ابتدا"
+
+#~ msgctxt "data-table"
+#~ msgid "Last"
+#~ msgstr "انتها"
+
+#~ msgctxt "data-table"
+#~ msgid "Next"
+#~ msgstr "بعدی"
+
+#~ msgctxt "data-table"
+#~ msgid "Previous"
+#~ msgstr "قبلی"
+
+#~ msgctxt "data-table"
+#~ msgid ": activate to sort column ascending"
+#~ msgstr ": فعال سازی نمایش به صورت صعودی"
+
+#~ msgctxt "data-table"
+#~ msgid ": activate to sort column descending"
+#~ msgstr ": فعال سازی نمایش به صورت نزولی"
+
+#~ msgctxt "data-table"
+#~ msgid "Copy to clipboard"
+#~ msgstr "کپی به کلیپ‌بورد"
+
+#~ msgctxt "data-table"
+#~ msgid "Column visibility"
+#~ msgstr "نمایش ستون"
+
+#~ msgctxt "data-table"
+#~ msgid "Export CSV"
+#~ msgstr "استخراج CSV"
+
+#~ msgctxt "data-table"
+#~ msgid "Export Excel"
+#~ msgstr "استخراج اکسل"
+
+#~ msgctxt "data-table"
+#~ msgid "Export PDF"
+#~ msgstr "استخراج PDF"
+
+#~ msgid "Select a CF7 form from list below:"
+#~ msgstr ""
+#~ "برای مشاهده داده های ثبت شده، یکی از فرم های تماس زیر را انتخاب کنید:"
+
+#~ msgid "Entered CF7 is not valid, Go back and select another Contact form"
+#~ msgstr ""
+#~ "فرم تماس وارد شده معتبر نیست! لطفا به صفحه قبلی بازگشته و فرم تماس جدیدی "
+#~ "انتخاب کنید"
+
+#~ msgid "%s → Contact Form \"%s\""
+#~ msgstr "%s ← فرم تماس \"%s\""
+
+#~ msgid "Items per page"
+#~ msgstr "تعداد در صفحه"
+
+#~ msgctxt "items_per_page"
+#~ msgid "Show %s items per page"
+#~ msgstr "نمایش %s مورد در صفحه"
+
+#~ msgid "Show your only saved submition"
+#~ msgid_plural "Show all %s items at once"
+#~ msgstr[0] "نمایش تمامی %s مورد در یک صفحه"
+#~ msgstr[1] "نمایش تنها مورد قابل نمایش"
+
+#~ msgid "Delete All Submitions of Current Contact form"
+#~ msgstr "حذف تمامی داده های ثبت شده مربوط به این فرم تماس"
+
+#~ msgid "Edit Current Contact form"
+#~ msgstr "ویرایش فرم تماس فعلی"
+
+#~ msgid "Go back and select another Contact form"
+#~ msgstr "بازگشت به صفحه انتخاب فرم تماس"
+
+#~ msgid "ID"
+#~ msgstr "شناسه"
+
+#~ msgid "Date Created"
+#~ msgstr "تاریخ ایجاد"
+
+#~ msgid "Subject"
+#~ msgstr "موضوع"
+
+#~ msgid "From"
+#~ msgstr "کاربر"
+
+#~ msgid "Action"
+#~ msgstr "عملیات"
+
+#~ msgid "Your very first saved submition is showing below"
+#~ msgid_plural "%s Saved Submitions found"
+#~ msgstr[0] "تعداد %s مورد ثبت شده در دیتابیس یافت شد"
+#~ msgstr[1] "شما در حال مشاهده تنها مورد ثبتی هستید"
+
+#~ msgid "Delete this specific submition"
+#~ msgstr "حذف این مورد برای همیشه"
+
+#~ msgid "< Previous"
+#~ msgstr "< قبلی"
+
+#~ msgid "Next >"
+#~ msgstr "بعدی >"
+
+#~ msgid "Error Reading Database!"
+#~ msgstr "خطایی در خواندن دیتابیس رخ داد!"
+
+#~ msgid "It seems there's nothing to show."
+#~ msgstr "به نظر میرسد اینجا چیزی برای نمایش وجود ندارد."
+
+#~ msgctxt "setting-page"
+#~ msgid "Enter %s"
+#~ msgstr "%s را وارد کنید"
+
+#~ msgctxt "setting-page"
+#~ msgid "Choose %s"
+#~ msgstr "%s را انتخاب کنید"
+
+#~ msgid "List of Submitions"
+#~ msgstr "لیست داده ها"
+
+#~ msgid "Setting"
+#~ msgstr "تنظیمات"
+
+#~ msgctxt "settings-general"
+#~ msgid "Yes"
+#~ msgstr "بله"
+
+#~ msgctxt "settings-general"
+#~ msgid "No"
+#~ msgstr "خیر"
+
+#~ msgctxt "setting-general"
+#~ msgid "Empty Database"
+#~ msgstr "پاکسازی دیتابیس"
