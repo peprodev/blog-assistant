@@ -1,3 +1,14 @@
+/**
+ * @Author: Amirhosseinhpv
+ * @Date:   2020/10/27 13:21:31
+ * @Email:  its@hpv.im
+ * @Last modified by:   Amirhosseinhpv
+ * @Last modified time: 2020/10/27 13:46:54
+ * @License: GPLv2
+ * @Copyright: Copyright © 2020 Amirhosseinhpv, All rights reserved.
+ */
+
+
 (function($) {
   $(document).ready(function() {
     var docHeight = $(document).height();
@@ -6,12 +17,13 @@
     var scrollPercent;
 
     if (_pba.tggleadminmenubar) {
-      $("#wpadminbar").addClass("pba_toggle_menubar");
+      $("#wpadminbar, html").addClass("pba_toggle_menubar");
       $("#wpadminbar.pba_toggle_menubar #wp-toolbar ul").first().prepend(`<li class="menupop" id="pba-adminbar-toggle"><a class="ab-item" href="#"><span class="ab-icon"></span></a></li>`)
       $(document).on("click tap", "#wp-admin-bar-root-default #pba-adminbar-toggle", function(e) {
         e.preventDefault();
         var me = $(this);
-        $("#wpadminbar").toggleClass("pba_toggle_menubar")
+        $("#wpadminbar").toggleClass("pba_toggle_menubar");
+        $("html").toggleClass("pba_toggle_menubar");
       });
     }
     if ($(".pba_scroll_progressbar").length) {

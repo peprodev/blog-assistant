@@ -9,8 +9,8 @@ Author URI: https://pepro.dev/
 Developer: Amirhosseinhpv
 Developer URI: https://hpv.im/
 Plugin URI: https://pepro.dev/blogging-assistant/
-Version: 1.0.0
-Stable tag: 1.0.0
+Version: 1.1.0
+Stable tag: 1.1.0
 Requires at least: 5.0
 Tested up to: 5.5.1
 Requires PHP: 5.6
@@ -20,6 +20,8 @@ Copyright: (c) 2020 Pepro Dev. Group, All rights reserved.
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
+# @Last modified by:   Amirhosseinhpv
+# @Last modified time: 2020/10/27 13:48:41
 
 defined("ABSPATH") or die("Pepro Blogging Assistant :: Unauthorized Access!");
 
@@ -59,7 +61,7 @@ if (!class_exists("peproBloggingAssistant")) {
       $this->plugin_basename = plugin_basename(__FILE__);
       $this->url = admin_url("options-general.php?page={$this->db_slug}");
       $this->plugin_file = __FILE__;
-      $this->version = "1.0.0";
+      $this->version = "1.1.0";
       $this->deactivateURI = null;
       $this->deactivateICON = '<span style="font-size: larger; line-height: 1rem; display: inline; vertical-align: text-top;" class="dashicons dashicons-dismiss" aria-hidden="true"></span> ';
       $this->versionICON = '<span style="font-size: larger; line-height: 1rem; display: inline; vertical-align: text-top;" class="dashicons dashicons-admin-plugins" aria-hidden="true"></span> ';
@@ -99,22 +101,9 @@ if (!class_exists("peproBloggingAssistant")) {
             $content_after .= $content_assist["after"];
           }
         }
+        $contentEr = apply_filters( "pepro_blog_assistant/debug_frontend_sections", "", $contentEr);
+        $content = apply_filters( "pepro_blog_assistant/return_content", "{$contentEr}{$content_before}{$content}{$content_after}", $content, $content_before, $content_after, $contentEr) ;
       }
-      $contentEr = apply_filters( "pepro_blog_assistant/debug_frontend_sections", "", $contentEr);
-
-      $content = apply_filters( "pepro_blog_assistant/return_content", "{$contentEr}{$content_before}{$content}{$content_after}", $content, $content_before, $content_after, $contentEr) ;
-
-      wp_enqueue_style("{$this->db_slug}", "{$this->assets_url}css/frontend.css");
-      wp_register_script("{$this->db_slug}", "{$this->assets_url}js/frontend.js", array('jquery'), null, true);
-      wp_localize_script( "{$this->db_slug}", "_pba", array(
-        "id" => get_the_id(),
-        "name" => get_the_title(),
-        "url" => get_the_permalink(),
-        "content" => $content,
-        "tggleadminmenubar" => ("yes" == $this->read_opt("{$this->db_slug}-tggleadminmenubar")),
-      ) );
-      wp_enqueue_script("{$this->db_slug}", "{$this->assets_url}js/frontend.js", array('jquery'), null, true);
-
       return $content;
     }
     public function assist_with_hook($key, $val, $setting)
@@ -665,7 +654,7 @@ if (!class_exists("peproBloggingAssistant")) {
       $input_number = ' dir="ltr" lang="en-US" min="0" step="1" ';
       $input_english = ' dir="ltr" lang="en-US" ';
       $input_required = ' required ';
-      wp_enqueue_style("fontawesome","https://use.fontawesome.com/releases/v5.13.1/css/all.css", array(), '5.13.1', 'all');
+      wp_enqueue_style("fontawesome","//use.fontawesome.com/releases/v5.13.1/css/all.css", array(), '5.13.1', 'all');
       wp_enqueue_style("wp-color-picker");
       wp_enqueue_script("wp-color-picker");
       wp_enqueue_style("{$this->db_slug}", "{$this->assets_url}css/backend.css");
@@ -720,8 +709,14 @@ if (!class_exists("peproBloggingAssistant")) {
               $name = "blogassisconfig[$slug][$section_id][{$value["id"]}]";
               $name2nd = "blogassisconfig[$slug][$section_id][{$value["id"]}_opt]";
               $currentValue_org = $this->read_opt("blogassisconfig");
-              $currentValue = $currentValue_org[$slug][$section_id][$value["id"]];
-              $currentValue2nd = $currentValue_org[$slug][$section_id][$value["id"]."_opt"];
+              $currentValue = "";
+              $currentValue2nd = "";
+              if (isset($currentValue_org[$slug][$section_id][$value["id"]])){
+                $currentValue = $currentValue_org[$slug][$section_id][$value["id"]];
+              }
+              if (isset($currentValue_org[$slug][$section_id][$value["id"]."_opt"])){
+                $currentValue2nd = $currentValue_org[$slug][$section_id][$value["id"]."_opt"];
+              }
 
               $id = "blogassisconfig_{$slug}_{$section_id}_{$value["id"]}";
               $tabContent .= "
@@ -769,6 +764,15 @@ if (!class_exists("peproBloggingAssistant")) {
       if ("yes" == $this->read_opt("{$this->db_slug}-addfa")){
         wp_enqueue_style("fontawesome","//use.fontawesome.com/releases/v5.13.1/css/all.css", array(), '5.13.1', 'all');
       }
+      wp_enqueue_style("{$this->db_slug}", "{$this->assets_url}css/frontend.css");
+      wp_register_script("{$this->db_slug}", "{$this->assets_url}js/frontend.js", array('jquery'), current_time( "timestamp" ), true);
+      wp_localize_script( "{$this->db_slug}", "_pba", array(
+        "id" => get_the_id(),
+        "name" => get_the_title(),
+        "url" => get_the_permalink(),
+        "tggleadminmenubar" => ("yes" == $this->read_opt("{$this->db_slug}-tggleadminmenubar")),
+      ));
+      wp_enqueue_script("{$this->db_slug}");
     }
     /* common functions */
     public function read_opt($mc, $def="")
@@ -868,6 +872,6 @@ if (!class_exists("peproBloggingAssistant")) {
     }
   );
 }
-/*################################################################################
-END OF PLUGIN || Programming is art // Artist : Amirhosseinhpv [https://hpv.im/]
-// */
+/*##################################################
+Lead Developer: [amirhosseinhpv](https://hpv.im/)
+##################################################*/

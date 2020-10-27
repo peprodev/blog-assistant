@@ -4,10 +4,11 @@ Donate link: https://pepro.dev/donate
 Tags: blog, blogging assistant,blogging tools,table of content,share buttons,navigation
 Requires at least: 5.0
 Tested up to: 5.5.1
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
+@Last modified time: 2020/10/27 13:48:25
 
 Pepro Blogging Assistant gives you Table of Content, Sharing Buttons, Heading navigations, Disallow Content Copying and a bunch of other tools to enhance user readability and the site's UX.
 
@@ -15,7 +16,7 @@ Pepro Blogging Assistant gives you Table of Content, Sharing Buttons, Heading na
 
 ### **Pepro Blogging Assistant gives you Table of Content, Sharing Buttons, Heading navigations, Disallow Content Copying and a bunch of other tools to enhance user readability and the site's UX.**
 
-This free plugins gives you: 
+This free plugins gives you:
 
 - 10-customizable Social Share buttons (floating at four positions, before content, after content)
 - Auto Generated Hierarchy Table of Content (before content, after content)
@@ -24,7 +25,7 @@ This free plugins gives you:
 - Page Scroll progress-bar (top, bottom, reversible, customizable)
 - WordPress admin-menu bar hide/show button on front-end
 - Protect Content from being copying
-- Custom Content Highlight color (highlight background, highlight text color) 
+- Custom Content Highlight color (highlight background, highlight text color)
 
 
 ### Made by Developers for Developers
@@ -65,7 +66,11 @@ You can help us improve our works by committing/requesting your changes to Pepro
 
 == Changelog ==
 
-= 1.0 =
+= 1.1.0 =
+
+- Fixed "Toggle front-end wp-admin-menubar feature" not running on WooCommerce pages
+
+= 1.0.0 =
 
 - Initial release
 - Added Social Share buttons
@@ -79,7 +84,11 @@ You can help us improve our works by committing/requesting your changes to Pepro
 
 == Upgrade Notice ==
 
-= 1.0 =
+= 1.1.0 =
+
+- Fixed "Toggle front-end wp-admin-menubar feature" not running on WooCommerce pages
+
+= 1.0.0 =
 
 - Initial release
 - Added Social Share buttons

@@ -1,3 +1,14 @@
+/**
+ * @Author: Amirhosseinhpv
+ * @Date:   2020/10/27 13:21:31
+ * @Email:  its@hpv.im
+ * @Last modified by:   Amirhosseinhpv
+ * @Last modified time: 2020/10/27 13:46:48
+ * @License: GPLv2
+ * @Copyright: Copyright © 2020 Amirhosseinhpv, All rights reserved.
+ */
+
+
 #wpadminbar #pba-adminbar-toggle > .ab-item,
 #wpadminbar.pba_toggle_menubar {
   width: 35px;
@@ -9,14 +20,22 @@
   display: none !important;
 }
 
+html.pba_toggle_menubar{
+  margin-top: 0 !important;
+}
 #wpadminbar.pba_toggle_menubar #wp-toolbar li#pba-adminbar-toggle {
   display: block !important;
 }
 
 #wpadminbar #pba-adminbar-toggle > .ab-item .ab-icon::before {
   content: "\f229";
-  right: 0.5rem;
   top: 1px;
+  left: 0.4rem;
+  right: auto
+}
+[dir="rtl"] #wpadminbar #pba-adminbar-toggle > .ab-item .ab-icon::before {
+  right: 0.4rem;
+  left: auto;
 }
 
 .pba_scroll_progressbar {
