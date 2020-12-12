@@ -21,7 +21,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 # @Last modified by:   Amirhosseinhpv
-# @Last modified time: 2020/12/12 12:57:55
+# @Last modified time: 2020/12/12 13:10:32
 
 defined("ABSPATH") or die("Pepro Blogging Assistant :: Unauthorized Access!");
 
@@ -96,9 +96,9 @@ if (!class_exists("peproBloggingAssistant")) {
               continue;
             if (!isset($currentValue_org[$slug][$section_id]))
               continue;
-            if (!isset($currentValue_org[$slug][$section_id][$value["id"]))
+            if (!isset($currentValue_org[$slug][$section_id][$value["id"]]))
               continue;
-            if (!isset($currentValue_org[$slug][$section_id][$value["id"]."_opt"])
+            if (!isset($currentValue_org[$slug][$section_id][$value["id"]."_opt"]))
               continue;
 
             $currentValue = $currentValue_org[$slug][$section_id][$value["id"]];
@@ -704,9 +704,11 @@ if (!class_exists("peproBloggingAssistant")) {
       value='yes' " . checked($this->read_opt("{$this->db_slug}-tggleadminmenubar"), "yes", false) . " />
       <label for='{$this->db_slug}-tggleadminmenubar'>"._x("Toggle front-end wp-admin-menubar feature", "setting-general", $this->td)."</label></p>
 
-      <p><input type='text' dir='ltr' name=\"{$this->db_slug}-content-wrapper\" id=\"{$this->db_slug}-content-wrapper\"
+      <p>
+      <label for='{$this->db_slug}-content-wrapper'>"._x("Front-end Content Wrapper selector", "setting-general", $this->td)."</label><br>
+      <input style=\"min-width: 300px;\" type='text' dir='ltr' name=\"{$this->db_slug}-content-wrapper\" id=\"{$this->db_slug}-content-wrapper\"
       value='" . $this->read_opt("{$this->db_slug}-content-wrapper", ".entry-content") . "' />
-      <label for='{$this->db_slug}-content-wrapper'>"._x("Front-end Content Wrapper selector", "setting-general", $this->td)."</label></p>
+      </p>
 
       </div>";
 
