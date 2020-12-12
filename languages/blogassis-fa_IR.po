@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pepro Blogging Assistant\n"
-"POT-Creation-Date: 2020-10-09 02:26+0330\n"
-"PO-Revision-Date: 2020-10-09 02:26+0330\n"
+"POT-Creation-Date: 2020-12-12 12:51+0330\n"
+"PO-Revision-Date: 2020-12-12 12:52+0330\n"
 "Last-Translator: Amirhosseinhpv <amirhossein@hpv.im>\n"
 "Language-Team: Amirhosseinhpv <amirhossein@hpv.im>\n"
 "Language: fa_IR\n"
@@ -21,267 +21,272 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: pepro-blog-assistant.php:69
+#: pepro-blog-assistant.php:71
 msgid "Blogging Assistant"
 msgstr "دستیار بلاگ"
 
-#: pepro-blog-assistant.php:70
+#: pepro-blog-assistant.php:72
 #, php-format
 msgid "%2$s ver. %1$s"
 msgstr "%2$s نسخه %1$s"
 
-#: pepro-blog-assistant.php:258
+#: pepro-blog-assistant.php:247
 msgid "Icon Color"
 msgstr "رنگ آیکون"
 
-#: pepro-blog-assistant.php:264
+#: pepro-blog-assistant.php:253
 msgid "Hover Color"
 msgstr "رنگ هاور"
 
-#: pepro-blog-assistant.php:270 pepro-blog-assistant.php:406
-#: pepro-blog-assistant.php:437 pepro-blog-assistant.php:482
+#: pepro-blog-assistant.php:259 pepro-blog-assistant.php:396
+#: pepro-blog-assistant.php:427 pepro-blog-assistant.php:472
 msgid "Background Color"
 msgstr "رنگ زمینه"
 
-#: pepro-blog-assistant.php:276
+#: pepro-blog-assistant.php:265
 msgid "Hover Background Color"
 msgstr "رنگ زمینه هاور"
 
-#: pepro-blog-assistant.php:281
+#: pepro-blog-assistant.php:270
 msgid "Border Radius"
 msgstr "خمیدگی حاشیه"
 
-#: pepro-blog-assistant.php:286
+#: pepro-blog-assistant.php:275
 msgid "Print"
 msgstr "پرینت"
 
-#: pepro-blog-assistant.php:291
+#: pepro-blog-assistant.php:280
 msgid "Share on Email"
 msgstr "اشتراک گذاری در ایمیل"
 
-#: pepro-blog-assistant.php:296
+#: pepro-blog-assistant.php:285
 msgid "Share on Facebook"
 msgstr "اشتراک گذاری در فیسبوک"
 
-#: pepro-blog-assistant.php:301
+#: pepro-blog-assistant.php:290
 msgid "Share on LinkedIn"
 msgstr "اشتراک گذاری در لینکد این"
 
-#: pepro-blog-assistant.php:306
+#: pepro-blog-assistant.php:295
 msgid "Share on Twitter"
 msgstr "اشتراک گذاری در توییتر"
 
-#: pepro-blog-assistant.php:311
+#: pepro-blog-assistant.php:300
 msgid "Share on Google-plus"
 msgstr "اشتراک گذاری در گوگل پلاس"
 
-#: pepro-blog-assistant.php:316
+#: pepro-blog-assistant.php:305
 msgid "Share on Tumblr"
 msgstr "اشتراک گذاری در تامبلر"
 
-#: pepro-blog-assistant.php:321
+#: pepro-blog-assistant.php:310
 msgid "Share on Pinterest"
 msgstr "اشتراک گذاری در پینترست"
 
-#: pepro-blog-assistant.php:328
+#: pepro-blog-assistant.php:317
 msgid "Share on Telegram"
 msgstr "اشتراک گذاری در تلگرام"
 
-#: pepro-blog-assistant.php:333
+#: pepro-blog-assistant.php:322
 msgid "Share on WhatsApp"
 msgstr "اشتراک گذاری در واتس‌اپ"
 
-#: pepro-blog-assistant.php:341
+#: pepro-blog-assistant.php:330
 msgid "Share Text"
 msgstr "متن اشتراک گذاری"
 
-#: pepro-blog-assistant.php:342
+#: pepro-blog-assistant.php:331
 msgid "Share this article: "
 msgstr "اشتراک گذاری این مطلب: "
 
-#: pepro-blog-assistant.php:349
+#: pepro-blog-assistant.php:339
 msgid "TOC Before Content"
 msgstr "فهرست مطالب قبل از محتوا"
 
-#: pepro-blog-assistant.php:353
+#: pepro-blog-assistant.php:343
 msgid "TOC After Content"
 msgstr "فهرست مطالب بعد از محتوا"
 
-#: pepro-blog-assistant.php:357
+#: pepro-blog-assistant.php:347
 msgid "Auto-prepend heading number"
 msgstr "افزودن شمارشگر به هدینگ ها"
 
-#: pepro-blog-assistant.php:361
+#: pepro-blog-assistant.php:351
 msgid "Append go to TOC to Heading"
 msgstr "افزودن رفتن به فهرست به هدینگ ها"
 
-#: pepro-blog-assistant.php:365
+#: pepro-blog-assistant.php:355
 msgid "Prepend Anchor link to Heading"
 msgstr "افزودن انکر لینک به هدینگ ها"
 
-#: pepro-blog-assistant.php:371
+#: pepro-blog-assistant.php:361
 msgid "Navigation on Right"
 msgstr "فهرست راهبری در راست"
 
-#: pepro-blog-assistant.php:374 pepro-blog-assistant.php:386
+#: pepro-blog-assistant.php:364 pepro-blog-assistant.php:376
 msgid "Menu-item hover border"
 msgstr "رنگ حاشیه لینک"
 
-#: pepro-blog-assistant.php:383
+#: pepro-blog-assistant.php:373
 msgid "Navigation on Left"
 msgstr "فهرست راهبری در چپ"
 
-#: pepro-blog-assistant.php:397
+#: pepro-blog-assistant.php:387
 msgid "Top Progressbar"
 msgstr "نوار پراگرس بالا"
 
-#: pepro-blog-assistant.php:400 pepro-blog-assistant.php:431
+#: pepro-blog-assistant.php:390 pepro-blog-assistant.php:421
 msgid "Progress Color"
 msgstr "رنگ نوار پراگرس"
 
-#: pepro-blog-assistant.php:412 pepro-blog-assistant.php:443
+#: pepro-blog-assistant.php:402 pepro-blog-assistant.php:433
 msgid "Reverse Direction"
 msgstr "جهت معکوس"
 
-#: pepro-blog-assistant.php:419 pepro-blog-assistant.php:450
+#: pepro-blog-assistant.php:409 pepro-blog-assistant.php:440
 msgid "Height"
 msgstr "ارتفاع"
 
-#: pepro-blog-assistant.php:428
+#: pepro-blog-assistant.php:418
 msgid "Bottom Progressbar"
 msgstr "نوار پراگرس پایین"
 
-#: pepro-blog-assistant.php:461
+#: pepro-blog-assistant.php:451
 msgid "Protect Content from being copying"
 msgstr "جلوگیری از کپی شده متن"
 
-#: pepro-blog-assistant.php:464
+#: pepro-blog-assistant.php:454
 msgid "Content Container Selector"
 msgstr "انتخابگر المان HTML نگهدارنده متن"
 
-#: pepro-blog-assistant.php:473
+#: pepro-blog-assistant.php:463
 msgid "Content Highlight Color"
 msgstr "رنگ متن هنگام هایلایت"
 
-#: pepro-blog-assistant.php:476
+#: pepro-blog-assistant.php:466
 msgid "Color"
 msgstr "رنگ"
 
-#: pepro-blog-assistant.php:492
+#: pepro-blog-assistant.php:482
 msgid "Share buttons"
 msgstr "دکمه های اشتراک گذاری"
 
-#: pepro-blog-assistant.php:496
+#: pepro-blog-assistant.php:486
 msgid "Share-widget Before Content"
 msgstr "ویجت اشتراک گذاری قبل از محتوا"
 
-#: pepro-blog-assistant.php:501
+#: pepro-blog-assistant.php:491
 msgid "Share-widget After Content"
 msgstr "ویجت اشتراک گذاری بعد از محتوا"
 
-#: pepro-blog-assistant.php:506
+#: pepro-blog-assistant.php:496
 msgid "Share-widget Float-top"
 msgstr "ویجت اشتراک گذاری شناور در بالا"
 
-#: pepro-blog-assistant.php:511
+#: pepro-blog-assistant.php:501
 msgid "Share-widget Float-bottom"
 msgstr "ویجت اشتراک گذاری شناور در پایین"
 
-#: pepro-blog-assistant.php:516
+#: pepro-blog-assistant.php:506
 msgid "Share-widget Float-right"
 msgstr "ویجت اشتراک گذاری شناور در راست"
 
-#: pepro-blog-assistant.php:521
+#: pepro-blog-assistant.php:511
 msgid "Share-widget Float-left"
 msgstr "ویجت اشتراک گذاری شناور در چپ"
 
-#: pepro-blog-assistant.php:527
+#: pepro-blog-assistant.php:517
 msgid "Table of Content"
 msgstr "فهرست مطالب"
 
-#: pepro-blog-assistant.php:531
+#: pepro-blog-assistant.php:521
 msgid "In-page Navigation"
 msgstr "فهرست راهبری"
 
-#: pepro-blog-assistant.php:535
+#: pepro-blog-assistant.php:525
 msgid "Scroll progressbar"
 msgstr "نوار پراگرس بار هنگام اسکرول"
 
-#: pepro-blog-assistant.php:539
+#: pepro-blog-assistant.php:529
 msgid "Advanced Options"
 msgstr "دیگر تنظیمات"
 
-#: pepro-blog-assistant.php:565 pepro-blog-assistant.php:566
+#: pepro-blog-assistant.php:556 pepro-blog-assistant.php:557
 msgid "Support"
 msgstr "پشتیبانی این محصول"
 
-#: pepro-blog-assistant.php:577
+#: pepro-blog-assistant.php:568
 msgid "Settings"
 msgstr "تنظیمات"
 
-#: pepro-blog-assistant.php:603
+#: pepro-blog-assistant.php:594
 #, php-format
 msgctxt "footer-copyright"
 msgid "Thanks for using %s products"
 msgstr "بابت استفاده از محصولات %s سپاسگزاریم"
 
-#: pepro-blog-assistant.php:603
+#: pepro-blog-assistant.php:594
 msgid "Pepro Dev"
 msgstr "تیم برنامه ‏نویسی پپرو"
 
-#: pepro-blog-assistant.php:608
+#: pepro-blog-assistant.php:599
 #, php-format
 msgctxt "footer-copyright"
 msgid "%s — Version %s"
 msgstr "%s — نسخه %s"
 
-#: pepro-blog-assistant.php:675
+#: pepro-blog-assistant.php:666
 msgid "Pepro Blogging Assistant Configurations"
 msgstr "تنظیمات دستیار بلاگ پپرو"
 
-#: pepro-blog-assistant.php:679
+#: pepro-blog-assistant.php:670
 msgctxt "setting-general"
 msgid "Settings saved successfully."
 msgstr "تنظیمات با موفقیت ثبت گردیدند."
 
-#: pepro-blog-assistant.php:688
+#: pepro-blog-assistant.php:679
 msgctxt "setting-page"
 msgid "Other Options"
 msgstr "تنظیمات پیشرفته"
 
-#: pepro-blog-assistant.php:692
+#: pepro-blog-assistant.php:683
 msgctxt "setting-page"
 msgid "You can change other options from here."
 msgstr "شما میتوانید دیگر تنظیمات را از اینجا تغییر دهید."
 
-#: pepro-blog-assistant.php:696
+#: pepro-blog-assistant.php:687
 msgctxt "setting-general"
 msgid "Clear Settings on Unistall"
 msgstr "پاکسازی دیتابیس هنگام حذف افزونه"
 
-#: pepro-blog-assistant.php:700
+#: pepro-blog-assistant.php:691
 msgctxt "setting-general"
 msgid "Add fontawesome v.5 to front-end"
 msgstr "افزودن فونت‎آسم (fontawesome-v.5) به فرانت اند"
 
-#: pepro-blog-assistant.php:704
+#: pepro-blog-assistant.php:695
 msgctxt "setting-general"
 msgid "Toggle front-end wp-admin-menubar feature"
 msgstr "قابلیت نمایش/مخفی سازی منوبار ادمین"
 
-#: pepro-blog-assistant.php:713
+#: pepro-blog-assistant.php:699
+msgctxt "setting-general"
+msgid "Front-end Content Wrapper selector"
+msgstr "انتخابگر نگهدارنده محتوای پست‌ها"
+
+#: pepro-blog-assistant.php:708
 #, php-format
 msgctxt "setting-page"
 msgid "%s Options"
 msgstr "تنظیمات مربوط به %s"
 
-#: pepro-blog-assistant.php:741
+#: pepro-blog-assistant.php:742
 msgid ""
 "Sorry, There's a problem and we could not find any post type in your blog."
 msgstr ""
 "متاسفیم! مشکلی پیش آمد و نمیتوانیم پست تایپ های وبلاگ شما را شناسایی کنیم."
 
-#: pepro-blog-assistant.php:747
+#: pepro-blog-assistant.php:748
 msgid "Save setting"
 msgstr "ذخیره تنظیمات"
 

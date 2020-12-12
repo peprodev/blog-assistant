@@ -3,7 +3,7 @@
  * @Date:   2020/10/27 13:21:31
  * @Email:  its@hpv.im
  * @Last modified by:   Amirhosseinhpv
- * @Last modified time: 2020/10/27 13:46:48
+ * @Last modified time: 2020/12/12 12:37:39
  * @License: GPLv2
  * @Copyright: Copyright © 2020 Amirhosseinhpv, All rights reserved.
  */
@@ -42,7 +42,9 @@ html.pba_toggle_menubar{
   display: block;
   position: fixed;
   left: 0;
-  width: 100%;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
   z-index: 999999;
 }
 
