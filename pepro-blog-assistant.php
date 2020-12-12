@@ -9,19 +9,19 @@ Author URI: https://pepro.dev/
 Developer: Amirhosseinhpv
 Developer URI: https://hpv.im/
 Plugin URI: https://pepro.dev/blogging-assistant/
-Version: 1.2.0
-Stable tag: 1.2.0
+Version: 1.3.0
+Stable tag: 1.3.0
 Requires at least: 5.0
-Tested up to: 5.5.1
+Tested up to: 5.6
 Requires PHP: 5.6
-Text Domain: blogassis
+Text Domain: pepro-blogging-assistant
 Domain Path: /languages
 Copyright: (c) 2020 Pepro Dev. Group, All rights reserved.
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 # @Last modified by:   Amirhosseinhpv
-# @Last modified time: 2020/12/12 12:56:14
+# @Last modified time: 2020/12/12 12:57:55
 
 defined("ABSPATH") or die("Pepro Blogging Assistant :: Unauthorized Access!");
 
@@ -51,7 +51,7 @@ if (!class_exists("peproBloggingAssistant")) {
     public function __construct()
     {
       global $wpdb;
-      $this->td = "blogassis";
+      $this->td = "pepro-blogging-assistant";
       self::$_instance = $this;
       $this->db_slug = $this->td;
       $this->db_table = $wpdb->prefix . $this->db_slug;
@@ -61,7 +61,7 @@ if (!class_exists("peproBloggingAssistant")) {
       $this->plugin_basename = plugin_basename(__FILE__);
       $this->url = admin_url("options-general.php?page={$this->db_slug}");
       $this->plugin_file = __FILE__;
-      $this->version = "1.2.0";
+      $this->version = "1.3.0";
       $this->deactivateURI = null;
       $this->deactivateICON = '<span style="font-size: larger; line-height: 1rem; display: inline; vertical-align: text-top;" class="dashicons dashicons-dismiss" aria-hidden="true"></span> ';
       $this->versionICON = '<span style="font-size: larger; line-height: 1rem; display: inline; vertical-align: text-top;" class="dashicons dashicons-admin-plugins" aria-hidden="true"></span> ';
@@ -90,7 +90,7 @@ if (!class_exists("peproBloggingAssistant")) {
         $current_post = get_post(); $slug = $current_post->post_type; $contentEr = $content_before = $content_after = "";
         foreach ($this->get_assistants() as $section_id => $section_data) {
           foreach ($section_data["opts"] as $key => $value) {
-            $currentValue_org = $this->read_opt("blogassisconfig");
+            $currentValue_org = $this->read_opt("pepro-blogging-assistantconfig");
 
             if (!isset($currentValue_org[$slug]))
               continue;
@@ -552,7 +552,7 @@ if (!class_exists("peproBloggingAssistant")) {
             "{$this->db_slug}-addfa" => "no",
             "{$this->db_slug}-tggleadminmenubar" => "no",
             "{$this->db_slug}-content-wrapper" => ".entry-content",
-            "blogassisconfig" => "",
+            "pepro-blogging-assistantconfig" => "",
           )
         ),
       );
@@ -711,7 +711,7 @@ if (!class_exists("peproBloggingAssistant")) {
       </div>";
 
       if ( $post_types ) {
-        echo "<div class='blogassistant-container'>";
+        echo "<div class='pepro-blogging-assistanttant-container'>";
         foreach ( $post_types  as $post_type ) {
           $id = $slug = $post_type->name;
           $headings .= "<a class='cpt-options-container cpt--$id' id='cpt-$id'>
@@ -722,9 +722,9 @@ if (!class_exists("peproBloggingAssistant")) {
           foreach ($this->get_assistants() as $section_id => $section_data) {
             $tabContent .= "<h3 id='{$slug}_{$section_id}' class='toggle-btn $section_id'>{$section_data["label"]}</h3><div class='{$slug}_{$section_id} toggle-content'>";
             foreach ($section_data["opts"] as $key => $value) {
-              $name = "blogassisconfig[$slug][$section_id][{$value["id"]}]";
-              $name2nd = "blogassisconfig[$slug][$section_id][{$value["id"]}_opt]";
-              $currentValue_org = $this->read_opt("blogassisconfig");
+              $name = "pepro-blogging-assistantconfig[$slug][$section_id][{$value["id"]}]";
+              $name2nd = "pepro-blogging-assistantconfig[$slug][$section_id][{$value["id"]}_opt]";
+              $currentValue_org = $this->read_opt("pepro-blogging-assistantconfig");
               $currentValue = "";
               $currentValue2nd = "";
               if (isset($currentValue_org[$slug][$section_id][$value["id"]])){
@@ -734,7 +734,7 @@ if (!class_exists("peproBloggingAssistant")) {
                 $currentValue2nd = $currentValue_org[$slug][$section_id][$value["id"]."_opt"];
               }
 
-              $id = "blogassisconfig_{$slug}_{$section_id}_{$value["id"]}";
+              $id = "pepro-blogging-assistantconfig_{$slug}_{$section_id}_{$value["id"]}";
               $tabContent .= "
               <div class='setting-level-1 $slug $section_id {$value["id"]}'>
               <input class='checkbox-level-1' type='checkbox' name=\"$name\" id='$id' value='yes' ".checked( $currentValue , "yes", false)." />
@@ -883,7 +883,7 @@ if (!class_exists("peproBloggingAssistant")) {
   add_action(
     "plugins_loaded", function () {
       global $peproBloggingAssistant;
-      load_plugin_textdomain("blogassis", false, dirname(plugin_basename(__FILE__))."/languages/");
+      load_plugin_textdomain("pepro-blogging-assistant", false, dirname(plugin_basename(__FILE__))."/languages/");
       $peproBloggingAssistant = new peproBloggingAssistant;
       register_uninstall_hook(__FILE__, array("peproBloggingAssistant", "uninstall_hook"));
     }

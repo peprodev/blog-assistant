@@ -5,7 +5,7 @@
   color: inherit !important;
 }
 
-.toplevel_page_blogassis .wp-menu-image img {
+.toplevel_page_pepro-blogging-assistant .wp-menu-image img {
   width: 18px;
   margin: 2px 0;
   padding: 6px !important;
@@ -14,12 +14,12 @@
   transition: all 0.3s ease-in-out;
 }
 
-.toplevel_page_blogassis:hover .wp-menu-image img {
+.toplevel_page_pepro-blogging-assistant:hover .wp-menu-image img {
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
 }
 
-.toplevel_page_blogassis.current .wp-menu-image img {
+.toplevel_page_pepro-blogging-assistant.current .wp-menu-image img {
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
   opacity: 1 !important;

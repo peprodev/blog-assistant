@@ -48,7 +48,7 @@ This free plugins gives you:
 
 2. Activate the plugin through the 'Plugins' screen in WordPress
 
-3. Navigate to `yoursite.com/wp-admin/options-general.php?page=blogassis` to change settings.
+3. Navigate to `yoursite.com/wp-admin/options-general.php?page=pepro-blogging-assistant` to change settings.
 
 
 == Frequently Asked Questions ==

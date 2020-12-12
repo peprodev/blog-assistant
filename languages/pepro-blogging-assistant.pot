@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Pepro Blogging Assistant\n"
-"POT-Creation-Date: 2020-10-09 02:26+0330\n"
+"POT-Creation-Date: 2020-12-12 12:58+0330\n"
 "PO-Revision-Date: 2020-10-03 14:29+0330\n"
 "Last-Translator: Amirhosseinhpv <amirhossein@hpv.im>\n"
 "Language-Team: Amirhosseinhpv <amirhossein@hpv.im>\n"
@@ -21,81 +21,81 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: pepro-blog-assistant.php:69
+#: pepro-blog-assistant.php:71
 msgid "Blogging Assistant"
 msgstr ""
 
-#: pepro-blog-assistant.php:70
+#: pepro-blog-assistant.php:72
 #, php-format
 msgid "%2$s ver. %1$s"
 msgstr ""
 
-#: pepro-blog-assistant.php:258
+#: pepro-blog-assistant.php:257
 msgid "Icon Color"
 msgstr ""
 
-#: pepro-blog-assistant.php:264
+#: pepro-blog-assistant.php:263
 msgid "Hover Color"
 msgstr ""
 
-#: pepro-blog-assistant.php:270 pepro-blog-assistant.php:406
+#: pepro-blog-assistant.php:269 pepro-blog-assistant.php:406
 #: pepro-blog-assistant.php:437 pepro-blog-assistant.php:482
 msgid "Background Color"
 msgstr ""
 
-#: pepro-blog-assistant.php:276
+#: pepro-blog-assistant.php:275
 msgid "Hover Background Color"
 msgstr ""
 
-#: pepro-blog-assistant.php:281
+#: pepro-blog-assistant.php:280
 msgid "Border Radius"
 msgstr ""
 
-#: pepro-blog-assistant.php:286
+#: pepro-blog-assistant.php:285
 msgid "Print"
 msgstr ""
 
-#: pepro-blog-assistant.php:291
+#: pepro-blog-assistant.php:290
 msgid "Share on Email"
 msgstr ""
 
-#: pepro-blog-assistant.php:296
+#: pepro-blog-assistant.php:295
 msgid "Share on Facebook"
 msgstr ""
 
-#: pepro-blog-assistant.php:301
+#: pepro-blog-assistant.php:300
 msgid "Share on LinkedIn"
 msgstr ""
 
-#: pepro-blog-assistant.php:306
+#: pepro-blog-assistant.php:305
 msgid "Share on Twitter"
 msgstr ""
 
-#: pepro-blog-assistant.php:311
+#: pepro-blog-assistant.php:310
 msgid "Share on Google-plus"
 msgstr ""
 
-#: pepro-blog-assistant.php:316
+#: pepro-blog-assistant.php:315
 msgid "Share on Tumblr"
 msgstr ""
 
-#: pepro-blog-assistant.php:321
+#: pepro-blog-assistant.php:320
 msgid "Share on Pinterest"
 msgstr ""
 
-#: pepro-blog-assistant.php:328
+#: pepro-blog-assistant.php:327
 msgid "Share on Telegram"
 msgstr ""
 
-#: pepro-blog-assistant.php:333
+#: pepro-blog-assistant.php:332
 msgid "Share on WhatsApp"
 msgstr ""
 
-#: pepro-blog-assistant.php:341
+#: pepro-blog-assistant.php:340
 msgid "Share Text"
 msgstr ""
 
-#: pepro-blog-assistant.php:342
+#: pepro-blog-assistant.php:341
 msgid "Share this article: "
 msgstr ""
 
@@ -211,76 +211,81 @@ msgstr ""
 msgid "Advanced Options"
 msgstr ""
 
-#: pepro-blog-assistant.php:565 pepro-blog-assistant.php:566
+#: pepro-blog-assistant.php:566 pepro-blog-assistant.php:567
 msgid "Support"
 msgstr ""
 
-#: pepro-blog-assistant.php:577
+#: pepro-blog-assistant.php:578
 msgid "Settings"
 msgstr ""
 
-#: pepro-blog-assistant.php:603
+#: pepro-blog-assistant.php:604
 #, php-format
 msgctxt "footer-copyright"
 msgid "Thanks for using %s products"
 msgstr ""
 
-#: pepro-blog-assistant.php:603
+#: pepro-blog-assistant.php:604
 msgid "Pepro Dev"
 msgstr ""
 
-#: pepro-blog-assistant.php:608
+#: pepro-blog-assistant.php:609
 #, php-format
 msgctxt "footer-copyright"
 msgid "%s — Version %s"
 msgstr ""
 
-#: pepro-blog-assistant.php:675
+#: pepro-blog-assistant.php:676
 msgid "Pepro Blogging Assistant Configurations"
 msgstr ""
 
-#: pepro-blog-assistant.php:679
+#: pepro-blog-assistant.php:680
 msgctxt "setting-general"
 msgid "Settings saved successfully."
 msgstr ""
 
-#: pepro-blog-assistant.php:688
+#: pepro-blog-assistant.php:689
 msgctxt "setting-page"
 msgid "Other Options"
 msgstr ""
 
-#: pepro-blog-assistant.php:692
+#: pepro-blog-assistant.php:693
 msgctxt "setting-page"
 msgid "You can change other options from here."
 msgstr ""
 
-#: pepro-blog-assistant.php:696
+#: pepro-blog-assistant.php:697
 msgctxt "setting-general"
 msgid "Clear Settings on Unistall"
 msgstr ""
 
-#: pepro-blog-assistant.php:700
+#: pepro-blog-assistant.php:701
 msgctxt "setting-general"
 msgid "Add fontawesome v.5 to front-end"
 msgstr ""
 
-#: pepro-blog-assistant.php:704
+#: pepro-blog-assistant.php:705
 msgctxt "setting-general"
 msgid "Toggle front-end wp-admin-menubar feature"
 msgstr ""
 
-#: pepro-blog-assistant.php:713
+#: pepro-blog-assistant.php:709
+msgctxt "setting-general"
+msgid "Front-end Content Wrapper selector"
+msgstr ""
+
+#: pepro-blog-assistant.php:718
 #, php-format
 msgctxt "setting-page"
 msgid "%s Options"
 msgstr ""
 
-#: pepro-blog-assistant.php:741
+#: pepro-blog-assistant.php:752
 msgid ""
 "Sorry, There's a problem and we could not find any post type in your blog."
 msgstr ""
 
-#: pepro-blog-assistant.php:747
+#: pepro-blog-assistant.php:758
 msgid "Save setting"
 msgstr ""
 
