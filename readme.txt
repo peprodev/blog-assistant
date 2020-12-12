@@ -4,11 +4,11 @@ Donate link: https://pepro.dev/donate
 Tags: blog, blogging assistant,blogging tools,table of content,share buttons,navigation
 Requires at least: 5.0
 Tested up to: 5.5.1
-Stable tag: 1.1.0
+Stable tag: 1.2.0
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-@Last modified time: 2020/10/27 13:48:25
+@Last modified time: 2020/12/12 12:35:12
 
 Pepro Blogging Assistant gives you Table of Content, Sharing Buttons, Heading navigations, Disallow Content Copying and a bunch of other tools to enhance user readability and the site's UX.
 
@@ -65,6 +65,10 @@ You can help us improve our works by committing/requesting your changes to Pepro
 
 
 == Changelog ==
+
+= 1.2.0 =
+
+- Added 'Front-end Content Wrapper selector' for better compatibility with any theme!
 
 = 1.1.0 =
 

@@ -9,8 +9,8 @@ Author URI: https://pepro.dev/
 Developer: Amirhosseinhpv
 Developer URI: https://hpv.im/
 Plugin URI: https://pepro.dev/blogging-assistant/
-Version: 1.1.0
-Stable tag: 1.1.0
+Version: 1.2.0
+Stable tag: 1.2.0
 Requires at least: 5.0
 Tested up to: 5.5.1
 Requires PHP: 5.6
@@ -21,7 +21,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 # @Last modified by:   Amirhosseinhpv
-# @Last modified time: 2020/10/27 13:48:41
+# @Last modified time: 2020/12/12 12:34:13
 
 defined("ABSPATH") or die("Pepro Blogging Assistant :: Unauthorized Access!");
 
@@ -61,7 +61,7 @@ if (!class_exists("peproBloggingAssistant")) {
       $this->plugin_basename = plugin_basename(__FILE__);
       $this->url = admin_url("options-general.php?page={$this->db_slug}");
       $this->plugin_file = __FILE__;
-      $this->version = "1.1.0";
+      $this->version = "1.2.0";
       $this->deactivateURI = null;
       $this->deactivateICON = '<span style="font-size: larger; line-height: 1rem; display: inline; vertical-align: text-top;" class="dashicons dashicons-dismiss" aria-hidden="true"></span> ';
       $this->versionICON = '<span style="font-size: larger; line-height: 1rem; display: inline; vertical-align: text-top;" class="dashicons dashicons-admin-plugins" aria-hidden="true"></span> ';
@@ -323,15 +323,16 @@ if (!class_exists("peproBloggingAssistant")) {
           ) ,
       ));
       $cpt_extra_tools2 = apply_filters("pepro_blog_assistant/get_assistant/share",
-      array_merge(
-        array(
-          "share_text" => array(
+        array_merge(
+          array(
+            "share_text" => array(
                             "id"      => "share_text",
                             "label"   => __("Share Text", $this->td),
                             "default" => __("Share this article: ",$this->td),
                           )
-        ), $cpt_extra_tools));
-
+          ),
+          $cpt_extra_tools
+      ));
       $cpt_toc_tools = apply_filters("pepro_blog_assistant/get_assistant/toc", array(
           array(
               "id" => "toc_before",
@@ -540,6 +541,7 @@ if (!class_exists("peproBloggingAssistant")) {
             "{$this->db_slug}-clearunistall" => "no",
             "{$this->db_slug}-addfa" => "no",
             "{$this->db_slug}-tggleadminmenubar" => "no",
+            "{$this->db_slug}-content-wrapper" => ".entry-content",
             "blogassisconfig" => "",
           )
         ),
@@ -692,6 +694,10 @@ if (!class_exists("peproBloggingAssistant")) {
       value='yes' " . checked($this->read_opt("{$this->db_slug}-tggleadminmenubar"), "yes", false) . " />
       <label for='{$this->db_slug}-tggleadminmenubar'>"._x("Toggle front-end wp-admin-menubar feature", "setting-general", $this->td)."</label></p>
 
+      <p><input type='text' name=\"{$this->db_slug}-content-wrapper\" id=\"{$this->db_slug}-content-wrapper\"
+      value='" . $this->read_opt("{$this->db_slug}-content-wrapper", ".entry-content") . "' />
+      <label for='{$this->db_slug}-content-wrapper'>"._x("Front-end Content Wrapper selector", "setting-general", $this->td)."</label></p>
+
       </div>";
 
       if ( $post_types ) {
@@ -771,6 +777,7 @@ if (!class_exists("peproBloggingAssistant")) {
         "name" => get_the_title(),
         "url" => get_the_permalink(),
         "tggleadminmenubar" => ("yes" == $this->read_opt("{$this->db_slug}-tggleadminmenubar")),
+        "contentWrapper" => $this->read_opt("{$this->db_slug}-content-wrapper",".entry-content"),
       ));
       wp_enqueue_script("{$this->db_slug}");
     }

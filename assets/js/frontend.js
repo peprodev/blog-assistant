@@ -3,7 +3,7 @@
  * @Date:   2020/10/27 13:21:31
  * @Email:  its@hpv.im
  * @Last modified by:   Amirhosseinhpv
- * @Last modified time: 2020/10/27 13:46:54
+ * @Last modified time: 2020/12/12 12:26:23
  * @License: GPLv2
  * @Copyright: Copyright © 2020 Amirhosseinhpv, All rights reserved.
  */
@@ -146,7 +146,7 @@
 
     function prepent_auto_numbering() {
       var segments = [];
-      $(':header').each(function() {
+      $(_pba.contentWrapper).find(":header").each(function() {
         var level = parseInt(this.nodeName.substring(1), 10);
         if (segments.length == level) {
           // from Hn to another Hn, just increment the last segment
@@ -168,7 +168,7 @@
 
     function add_heading_anchors(makelist = false, go2top = false, anchor = false, div = ".pba_table_of_content") {
       var segments = [];
-      $(':header').each(function() {
+      $(_pba.contentWrapper).find(":header").each(function() {
         var level = parseInt(this.nodeName.substring(1), 10);
         if (segments.length == level) {
           // from Hn to another Hn, just increment the last segment
