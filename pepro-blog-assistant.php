@@ -9,8 +9,8 @@ Author URI: https://pepro.dev/
 Developer: Amirhosseinhpv
 Developer URI: https://hpv.im/
 Plugin URI: https://pepro.dev/blogging-assistant/
-Version: 1.3.0
-Stable tag: 1.3.0
+Version: 1.3.1
+Stable tag: 1.3.1
 Requires at least: 5.0
 Tested up to: 5.6
 Requires PHP: 5.6
@@ -21,7 +21,7 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 # @Last modified by:   Amirhosseinhpv
-# @Last modified time: 2020/12/12 13:10:32
+# @Last modified time: 2020/12/12 13:26:43
 
 defined("ABSPATH") or die("Pepro Blogging Assistant :: Unauthorized Access!");
 
@@ -92,13 +92,7 @@ if (!class_exists("peproBloggingAssistant")) {
           foreach ($section_data["opts"] as $key => $value) {
             $currentValue_org = $this->read_opt("pepro-blogging-assistantconfig");
 
-            if (!isset($currentValue_org[$slug]))
-              continue;
-            if (!isset($currentValue_org[$slug][$section_id]))
-              continue;
-            if (!isset($currentValue_org[$slug][$section_id][$value["id"]]))
-              continue;
-            if (!isset($currentValue_org[$slug][$section_id][$value["id"]."_opt"]))
+            if (!isset($currentValue_org[$slug][$section_id][$value["id"]]) || empty($currentValue_org[$slug][$section_id][$value["id"]]))
               continue;
 
             $currentValue = $currentValue_org[$slug][$section_id][$value["id"]];

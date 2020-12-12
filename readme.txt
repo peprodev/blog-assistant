@@ -4,7 +4,7 @@ Donate link: https://pepro.dev/donate
 Tags: blog, blogging assistant,blogging tools,table of content,share buttons,navigation
 Requires at least: 5.0
 Tested up to: 5.6
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
