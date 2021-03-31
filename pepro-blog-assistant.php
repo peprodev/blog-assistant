@@ -12,7 +12,7 @@ Plugin URI: https://pepro.dev/blogging-assistant/
 Version: 1.3.1
 Stable tag: 1.3.1
 Requires at least: 5.0
-Tested up to: 5.6
+Tested up to: 5.7
 Requires PHP: 5.6
 Text Domain: pepro-blogging-assistant
 Domain Path: /languages
