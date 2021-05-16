@@ -3,7 +3,7 @@
  * @Date:   2020/10/27 13:21:31
  * @Email:  its@hpv.im
  * @Last modified by:   Amirhosseinhpv
- * @Last modified time: 2020/12/12 12:26:23
+ * @Last modified time: 2021/05/15 20:18:39
  * @License: GPLv2
  * @Copyright: Copyright © 2020 Amirhosseinhpv, All rights reserved.
  */
@@ -14,6 +14,9 @@
     var docHeight = $(document).height();
     var windowHeight = $(window).height();
     var tolorace = 0;
+	var header_height = $("header").first().height();
+	let root = document.documentElement;
+	root.style.setProperty('--header-height', header_height + "px");
     var scrollPercent;
 
     if (_pba.tggleadminmenubar) {
@@ -127,14 +130,14 @@
     $(document).on("click tap", ".dashicons.pba_goto_toc", function(e) {
       e.preventDefault();
       $("html, body").animate({
-        scrollTop: $(".pba_table_of_content").first().offset().top - tolorace
+        scrollTop: $(".pba_table_of_content").first().offset().top - $("header").first().height()
       }, "slow");
     });
     $(document).on("click tap", "a.pba_heading_anchor, .pba_inline_nav>a, .pba_table_of_content>a", function(e) {
       e.preventDefault();
       var me = $(this);
       $("html, body").animate({
-        scrollTop: $(me.attr("href")).first().offset().top - tolorace
+        scrollTop: $(me.attr("href")).first().offset().top - $("header").first().height()
       }, "slow");
       if (history.pushState) {
         history.pushState(null, null, me.attr("href"));

@@ -3,11 +3,14 @@
  * @Date:   2020/10/27 13:21:31
  * @Email:  its@hpv.im
  * @Last modified by:   Amirhosseinhpv
- * @Last modified time: 2020/12/12 12:37:39
+ * @Last modified time: 2021/05/15 20:18:39
  * @License: GPLv2
  * @Copyright: Copyright © 2020 Amirhosseinhpv, All rights reserved.
  */
 
+:root {
+  --header-height: 0px;
+}
 
 #wpadminbar #pba-adminbar-toggle > .ab-item,
 #wpadminbar.pba_toggle_menubar {
@@ -103,7 +106,7 @@ span.pba_goto_toc {
 .pepro_blogging_assistant.pba_inline_nav {
   position: -webkit-sticky;
   position: sticky;
-  top: 1.5rem;
+  top: calc(var(--header-height) + 1rem);
   max-height: 400px;
   overflow: auto;
   width: 270px;
