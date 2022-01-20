@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Pepro Blogging Assistant
+Plugin Name: PeproDev Blogging Assistant
 Description: Pepro Blogging Assistant gives you Table of Content, Sharing Buttons, Heading navigations, Disallow Content Copying and a bunch of other tools to enhance user readability and the site's UX
 Contributors: amirhosseinhpv
 Tags: blog, blogging assistant, blogging tools, table of content, share buttons, navigation

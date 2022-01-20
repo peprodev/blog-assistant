@@ -1,4 +1,4 @@
-=== Pepro Blogging Assistant ===
+=== PeproDev Blogging Assistant ===
 Contributors: amirhosseinhpv
 Donate link: https://pepro.dev/donate
 Tags: blog, blogging assistant,blogging tools,table of content,share buttons,navigation
