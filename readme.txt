@@ -3,7 +3,7 @@ Contributors: amirhosseinhpv
 Donate link: https://pepro.dev/donate
 Tags: blog, blogging assistant,blogging tools,table of content,share buttons,navigation
 Requires at least: 5.0
-Tested up to: 5.7
+Tested up to: 5.9
 Stable tag: 1.3.2
 Requires PHP: 5.6
 License: GPLv2 or later
